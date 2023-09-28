@@ -1,9 +1,9 @@
 #pragma once
-#ifdef leaver_EXPORT
+#ifdef leaver_EXPORTS
 	#define leaver_API __declspec(dllexport)
 #else
 	#define leaver_API __declspec(dllimport)
-#endif // leaver_EXPORT
+#endif // leaver_EXPORTS
 
 #include <string>
 
